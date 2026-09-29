@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ahas-at-hagdan
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
